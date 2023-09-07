@@ -1,0 +1,22 @@
+body
+{
+    background-size: cover;
+}
+
+.heading 
+{
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px;
+}
+
+.heading button
+{
+    float: right;
+    border: 13px solid salmon ;
+}
+
+#status
+{
+    font-size: 23px;
+}
