@@ -20,3 +20,10 @@ body
 {
     font-size: 23px;
 }
+
+#canvas
+{
+  padding: 0;
+  margin: auto;
+  display: block;
+}
