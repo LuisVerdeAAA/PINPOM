@@ -16,36 +16,42 @@
     </head>
     <body background="ASDASD.jpg">
         <center>
-            <div class="heading btn btn-primary">
-                <h1>PIMPON ES UN MULECO MUY RETRO Y DE CARTON</h1>
-                <button class="btn btn-warning" data-toogle="modal" data-target="#myModal">STRUXIONSES</button>
-                </div>
+            <div class="btn btn-primary heading">
+                <h3>PIMPON ES UN MULECO MUY RETRO Y DE CARTON</h3>
+                <button class="btn btn-warning"  data-toggle="modal" data-target="#myModal">STRUXIONSES</button>
+              </div>
+        
+              <br><br>
+              <button class="btn btn-danger" onclick="startGame()" id="start">JOGA DA MARABILOSO JOGO BRAXIL</button>
+              <br><br>
+              <h3 id="status" class="btn btn-success"></h3>
+              <br><br>
+              <span id="canvas"></span>
+              <span id="camera"></span>
 
-                <button onclick="startGame()" class="btn btn-danger">JOGA DA MARABILOSO JOGO BRAXIL</button>
-                <br>
-                <br>
-                <h3 id="status" class="btn btn-success"></h3>
-                <span id="canvas"></span>
-                <span id="camera"></span>
-                <div id="#myModal" class="modal fade">
-                <div class="modal-dialog">
-                    <div  class="modal-content">
-                        <div class="modal-header">
-                            <button class="close" data-dismiss="modal">&times;</button>
-                            <h3>STRUXSHINS o lo q o guteis arriba ESPAÑA </h3>
-                        </div>
-                        <div class="modal-body">
-                            <ol>
-                                <li>Paso 1.- Presiona el boton de jugar</li>
-                                <li>Paso 2.- Juega MOVIENDO TU MUÑECA DERECHA PARA MOVER LA PALETA</li>
-                                <li>Paso 3.-Disfruta</li>
-                                <li>Paso 4.- Para volber a gujar mesesitas darle al boton de rehinisio</li>
-                                <li>Paso 5.- Vuelñbe al paso nomber uan</li>
-                            </ol>
-                        </div>
+              <div id="myModal" class="modal fade ">
+                <div class="modal-dialog" >
+                  <!-- Contenido Modal -->
+                  <div class="modal-content">
+              
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4>STRUXSHINS o lo q o guteis arriba ESPAÑA</h4>
                     </div>
+              
+                     <div class="modal-body">
+                        <ol>
+                            <li>Paso 1.- Presiona el boton de jugar</li>
+                            <li>Paso 2.- Juega MOVIENDO TU MUÑECA DERECHA PARA MOVER LA PALETA</li>
+                            <li>Paso 3.-Disfruta</li>
+                            <li>Paso 4.- Para volber a gujar mesesitas darle al boton de rehinisio</li>
+                            <li>Paso 5.- Vuelñbe al paso nomber uan</li>
+                        </ol>
+                      </div>
+        
+                  </div>
                 </div>
-            </div>
+              </div>
             <div><button onclick="restart()" class="btn btn-secondary">REINISIO</button></div>
         </center>
         <script src="main.js"></script>

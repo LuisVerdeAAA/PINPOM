@@ -1,3 +1,5 @@
+gameStatus="";
+
 
 /*creado por prashant shukla */
 var wristX ="";
@@ -52,7 +54,8 @@ function gotPoses(results)
   
 
 function draw(){
-
+if(gameStatus=="start")
+{
  background(0); 
 
  fill("black");
@@ -96,6 +99,7 @@ function draw(){
       stroke(255,4,240);
       circle(wristX,wristY,3);
     }
+   }
 }
 
 
@@ -193,4 +197,10 @@ function paddleInCanvas(){
   if(mouseY < 0){
     mouseY =0;
   }  
+}
+
+startGame()
+{
+  gameStatus="start";
+  document.getElementById("status").innerHTML="El juego sacargao";
 }
